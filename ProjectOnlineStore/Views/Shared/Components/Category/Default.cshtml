@@ -1,0 +1,7 @@
+﻿@model List<ProjectOnlineStore.Data.Category>
+
+<ul class="kid-menu">
+    @foreach(var category in Model) {
+        <li><a href="/Product/Category/@category.Id">@category.Name</a></li>
+    }
+</ul>

@@ -1,0 +1,20 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProjectOnlineStore.Data
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="account"><a id="manage" @*asp-area="Identity" asp-page="/Account/Manage/Index"*@ title="Manage"><span> </span>@UserManager.GetUserName(User)</a></div>
+    <ul class="login">
+        <li><a id="logoutForm" asp-action="Logout" asp-controller="User" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })"><span> </span>THOÁT</a></li>
+    </ul>
+}
+else
+{
+    <div class="account"><a id="login" asp-action="Login" asp-controller="User"><span> </span>ĐĂNG NHẬP</a></div>
+    <ul class="login">
+        <li><a id="register" asp-action="Register" asp-controller="User"><span> </span>ĐĂNG KÝ</a></li>
+    </ul>
+}

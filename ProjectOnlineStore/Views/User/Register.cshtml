@@ -1,0 +1,66 @@
+﻿@model ProjectOnlineStore.Models.RegisterViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<div class="register">
+    <form id="registerForm" method="post">
+        <div class="register-top-grid">
+            <h3>ĐĂNG KÝ TÀI KHOẢN & THÔNG TIN CÁ NHÂN</h3>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating">
+                <input asp-for="Email" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Email"></label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Password"></label>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="ConfirmPassword"></label>
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="firstName" class="form-control" autocomplete="" aria-required="true" />
+                <label asp-for="firstName"></label>
+                <span asp-validation-for="firstName" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="lastName" class="form-control" autocomplete="" aria-required="true" />
+                <label asp-for="lastName"></label>
+                <span asp-validation-for="lastName" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="age" class="form-control" autocomplete="" aria-required="true" />
+                <label asp-for="age"></label>
+                <span asp-validation-for="age" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="phone" class="form-control" autocomplete="" aria-required="true" />
+                <label asp-for="phone"></label>
+                <span asp-validation-for="phone" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="address" class="form-control" autocomplete="" aria-required="true" />
+                <label asp-for="address"></label>
+                <span asp-validation-for="address" class="text-danger"></span>
+            </div>
+            <div class="clearfix"> </div>
+            <div class="register-but">
+
+                <form>
+                    <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">ĐĂNG KÝ</button>
+                    <div class="clearfix"> </div>
+                </form>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

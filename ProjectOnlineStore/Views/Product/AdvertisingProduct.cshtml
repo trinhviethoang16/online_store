@@ -1,0 +1,35 @@
+﻿@model List<ProjectOnlineStore.Data.Product>
+
+@for (int i = 0; i < Model.Count; i++)
+{
+    if (Model[i].AdsImage != null)
+    {
+        <a href="/Product/Detail/@Model[i].Id">
+            <div class="col-md-6 con-sed-grid">
+                <div class=" elit-grid">
+                    <h4>@Model[i].Name</h4>
+                    <label>CHO TẤT CẢ SẢN PHẨM</label>
+                    <p>@Model[i].Description</p>
+                            <!--Cart-->
+                    <span class="on-get">MUA NGAY</span>
+                </div>
+                <img height="200" width="170" class="img-responsive shoe-left" src="@Model[i].AdsImage" alt=" " />
+                <div class="clearfix"> </div>
+            </div>
+        </a>
+        <a href="/Product/Detail/@Model[i+1].Id">
+            <div class="col-md-6 con-sed-grid sed-left-top">
+                <div class=" elit-grid">
+                    <h4>@Model[i+1].Name</h4>
+                    <label>CHO TẤT CẢ SẢN PHẨM</label>
+                    <p>@Model[i+1].Description</p>
+                            <!--Cart-->
+                    <span class="on-get">MUA NGAY</span>
+                </div>
+                <img height="200" width="170" class="img-responsive shoe-left" src="@Model[i+1].AdsImage" alt=" " />
+                <div class="clearfix"> </div>
+            </div>
+        </a>
+        break;
+    }
+}

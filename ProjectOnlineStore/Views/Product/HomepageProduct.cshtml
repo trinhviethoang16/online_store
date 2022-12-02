@@ -1,0 +1,26 @@
+﻿@model List<ProjectOnlineStore.Data.Product>
+
+
+<div class="wmuSliderWrapper">
+    @foreach (var p in Model)
+    {
+        @if (p.HomePageImage != null)
+        {
+            <article style="position: absolute; width: 100%; opacity: 0;">
+                <div class="banner-matter">
+                    <div class="col-md-5 banner-bag">
+                        <img class="img-responsive" src="@p.HomePageImage" alt=" " />
+                    </div>
+                    <div class="col-md-7 banner-off">
+                        <h2>GIẢM 50% GIÁ</h2>
+                        <label>CHO SẢN PHẨM <b>@p.Name</b></label>
+                        <p>@p.ShortDesc</p>
+                        <!--Cart-->
+                        <span class="on-get">MUA NGAY</span>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </article>
+        }
+    }
+</div>

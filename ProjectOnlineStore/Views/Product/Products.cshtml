@@ -1,0 +1,125 @@
+﻿@model List<ProjectOnlineStore.Data.Product>
+
+@for (int i = 0; i < Model.Count(); i++)
+{
+    if (i % 3 == 2)
+    {
+        <div class="col-md-4 chain-grid grid-top-chain">
+            <a href="/Product/Detail/@Model[i].Id"><img height="250" width="179" class="img-responsive chain" src="@Model[i].Image" alt=" " /></a>
+            <span class="star"> </span>
+            <div class="grid-chain-bottom">
+                <h6><a href="/Product/Detail/@Model[i].Id">@Model[i].Name</a></h6>
+                <div class="star-price">
+                    <div class="dolor-grid">
+                        <span class="actual">@Model[i].Discount$</span>
+                        <span class="reducedfrom">@Model[i].Price$</span>
+                        <span class="rating">
+                            @{
+                                for (int j = 0; j < @Model[i].Rating; j++)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star1"> </label>
+                                }
+                                if (@Model[i].Rating == 1)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Rating == 2)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Rating == 3)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Rating == 4)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                            }
+                        </span>
+                    </div>
+                    <a class="now-get get-cart" href="#">THÊM VÀO GIỎ</a>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+        <br />
+    }
+    else
+    {
+        <div class="col-md-4 chain-grid">
+            <a href="/Product/Detail/@Model[i].Id"><img height="250" width="179" class="img-responsive chain" src="@Model[i].Image" alt=" " /></a>
+            <span class="star"> </span>
+            <div class="grid-chain-bottom">
+                <h6><a href="/Product/Detail/@Model[i].Id">@Model[i].Name</a></h6>
+                <div class="star-price">
+                    <div class="dolor-grid">
+                        <span class="actual">@Model[i].Discount$</span>
+                        <span class="reducedfrom">@Model[i].Price$</span>
+                        <span class="rating">
+                            @{
+                                for (int j = 0; j < @Model[i].Rating; j++)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star1"> </label>
+                                }
+                                if (@Model[i].Rating == 1)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Rating == 2)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Rating == 3)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Rating == 4)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                            }
+                        </span>
+                    </div>
+                    <a class="now-get get-cart" href="#">THÊM VÀO GIỎ</a>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    }
+}
