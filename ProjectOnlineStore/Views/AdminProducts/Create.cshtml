@@ -1,0 +1,90 @@
+﻿@model ProjectOnlineStore.Data.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<br />
+<h2 style="text-align:center">Sản phẩm</h2>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Detail" class="control-label"></label>
+                <input asp-for="Detail" class="form-control" />
+                <span asp-validation-for="Detail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+             @*Choose file*@
+             @*<div class="form-group">
+                @using (Html.BeginForm("Create", "AdminProducts", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                <label asp-for="Image" class="control-label"></label>
+                <input type="file" name="File" class="form-control" />
+                }
+            </div>*@
+            <div class="form-group">
+                <label asp-for="Star" class="control-label"></label>
+                <input asp-for="Star" class="form-control" />
+                <span asp-validation-for="Star" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BestSellers" class="control-label"></label>
+                <input asp-for="BestSellers" class="form-control" />
+                <span asp-validation-for="BestSellers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sales" class="control-label"></label>
+                <input asp-for="Sales" class="form-control" />
+                <span asp-validation-for="Sales" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Homepage" class="control-label"></label>
+                <input asp-for="Homepage" class="form-control" />
+                <span asp-validation-for="Homepage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remains" class="control-label"></label>
+                <input asp-for="Remains" class="form-control" />
+                <span asp-validation-for="Remains" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-danger" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

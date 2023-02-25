@@ -1,0 +1,81 @@
+﻿@model List<ProjectOnlineStore.Data.Product>
+
+@{
+    Random random = new Random();
+    int index = random.Next(Model.Count);
+    for (int i = 0; i < Model.Count; i++)
+    {
+        if (i == index && i != (Model.Count() - 1))
+        {
+            <a href="/Product/Detail/@Model[i].Id">
+                <div class="col-md-6 con-sed-grid">
+                    <div class=" elit-grid">
+                        <h4>@Model[i].Name</h4>
+                        <label>CHO TẤT CẢ SẢN PHẨM</label>
+                        <p>@Model[i].Description</p>
+                        <a href="/Product/Detail/@Model[i].Id">
+                            <span class="on-get">XEM NGAY</span>
+                        </a>
+                    </div>
+                    <a href="/Product/Detail/@Model[i].Id">
+                        <img height="200" width="170" class="img-responsive shoe-left" src="@Model[i].Image" alt=" " />
+                    </a>
+                    <div class="clearfix"> </div>
+                </div>
+            </a>
+            <a href="/Product/Detail/@Model[i+1].Id">
+                <div class="col-md-6 con-sed-grid sed-left-top">
+                    <div class=" elit-grid">
+                        <h4>@Model[i+1].Name</h4>
+                        <label>CHO TẤT CẢ SẢN PHẨM</label>
+                        <p>@Model[i+1].Description</p>
+                        <a href="/Product/Detail/@Model[i+1].Id">
+                            <span class="on-get">XEM NGAY</span>
+                        </a>
+                    </div>
+                    <a href="/Product/Detail/@Model[i+1].Id">
+                        <img height="200" width="170" class="img-responsive shoe-left" src="@Model[i+1].Image" alt=" " />
+                    </a>
+                    <div class="clearfix"> </div>
+                </div>
+            </a>
+            break;
+        }
+        else if (i == (Model.Count() - 1))
+        {
+            <a href="/Product/Detail/@Model[i].Id">
+                <div class="col-md-6 con-sed-grid">
+                    <div class=" elit-grid">
+                        <h4>@Model[i].Name</h4>
+                        <label>CHO TẤT CẢ SẢN PHẨM</label>
+                        <p>@Model[i].Description</p>
+                        <a href="/Product/Detail/@Model[i].Id">
+                            <span class="on-get">XEM NGAY</span>
+                        </a>
+                    </div>
+                    <a href="/Product/Detail/@Model[i].Id">
+                        <img height="200" width="170" class="img-responsive shoe-left" src="@Model[i].Image" alt=" " />
+                    </a>
+                    <div class="clearfix"> </div>
+                </div>
+            </a>
+            <a href="/Product/Detail/@Model[i-1].Id">
+                <div class="col-md-6 con-sed-grid sed-left-top">
+                    <div class=" elit-grid">
+                        <h4>@Model[i-1].Name</h4>
+                        <label>CHO TẤT CẢ SẢN PHẨM</label>
+                        <p>@Model[i-1].Description</p>
+                        <a href="/Product/Detail/@Model[i-1].Id">
+                            <span class="on-get">XEM NGAY</span>
+                        </a>
+                    </div>
+                    <a href="/Product/Detail/@Model[i-1].Id">
+                        <img height="200" width="170" class="img-responsive shoe-left" src="@Model[i-1].Image" alt=" " />
+                    </a>
+                    <div class="clearfix"> </div>
+                </div>
+            </a>
+            break;
+        }
+    }
+}

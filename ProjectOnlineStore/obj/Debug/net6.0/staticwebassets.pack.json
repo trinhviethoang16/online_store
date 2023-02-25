@@ -1,0 +1,521 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ProjectOnlineStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ProjectOnlineStore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\css\\etalage.css",
+      "PackagePath": "staticwebassets\\assets\\css\\etalage.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\css\\form.css",
+      "PackagePath": "staticwebassets\\assets\\css\\form.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\Thumbs.db",
+      "PackagePath": "staticwebassets\\assets\\images\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\a-star.png",
+      "PackagePath": "staticwebassets\\assets\\images\\a-star.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\arrow1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\arrow1.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\arrow2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\arrow2.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\avatar.png",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\b-arrow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\b-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\ba.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\baa.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\baa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\bag.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\bag1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bag1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\bo.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\bott.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bott.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\bottle.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bottle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\ch.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\ch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\facebook.png",
+      "PackagePath": "staticwebassets\\assets\\images\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\gpluse.png",
+      "PackagePath": "staticwebassets\\assets\\images\\gpluse.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\img-sprite.png",
+      "PackagePath": "staticwebassets\\assets\\images\\img-sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\label_new.png",
+      "PackagePath": "staticwebassets\\assets\\images\\label_new.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pi.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pi1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pi1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pi2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pi2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pi3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pi3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pi4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pi4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\pic8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pic8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\review.png",
+      "PackagePath": "staticwebassets\\assets\\images\\review.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\rss.png",
+      "PackagePath": "staticwebassets\\assets\\images\\rss.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\s1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\s1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\s2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\s2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\s3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\s3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\s4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\s4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\sh.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\sh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\si1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\si1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\si2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\si2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\si3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\si3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\si4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\si4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\star.png",
+      "PackagePath": "staticwebassets\\assets\\images\\star.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\tick1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tick1.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\twitter.png",
+      "PackagePath": "staticwebassets\\assets\\images\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\wa.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\wa.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\wat.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\wat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\images\\zoom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\zoom.png"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\js\\jquery.etalage.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.etalage.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\js\\jquery.flexisel.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.flexisel.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\js\\jquery.wmuSlider.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.wmuSlider.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\assets\\js\\shoppingCart.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shoppingCart.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Viet Hoang\\source\\repos\\ProjectOnlineStore\\ProjectOnlineStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProjectOnlineStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ProjectOnlineStore.props",
+      "PackagePath": "build\\ProjectOnlineStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectOnlineStore.props",
+      "PackagePath": "buildMultiTargeting\\ProjectOnlineStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ProjectOnlineStore.props",
+      "PackagePath": "buildTransitive\\ProjectOnlineStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

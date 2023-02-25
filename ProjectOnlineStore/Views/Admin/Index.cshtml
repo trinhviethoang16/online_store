@@ -1,0 +1,32 @@
+﻿@model List<ProjectOnlineStore.Data.Order>
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<h2 style="text-align:center">DOANH THU CỬA HÀNG</h2>
+
+@if (Model.Count > 0)
+{
+    <table class="table">
+        <tr>
+            <th>STT</th>
+            <th>Tên người mua</th>
+            <th>ID người mua</th>
+            <th>Tổng tiền</th>
+        </tr>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.UserName</td>
+                <td>@order.CreateAt.ToString()</td>
+                <td>@order.Total</td>
+            </tr>
+        }
+    </table>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-info">Trở về trang chủ</a>
+}
+else
+{
+    <p class="alert alert-danger">Không có hóa đơn nào !</p>
+}

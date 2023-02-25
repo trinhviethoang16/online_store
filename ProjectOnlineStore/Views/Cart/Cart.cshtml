@@ -1,0 +1,81 @@
+﻿@model List<ProjectOnlineStore.Models.CartItem>
+@using Microsoft.AspNetCore.Identity;
+@using ProjectOnlineStore.Data;
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@{
+    Layout = "~/Views/Shared/_LayoutCart.cshtml";
+}
+
+<h2 style="text-align:center">KHU VỰC GIỎ HÀNG</h2>
+
+@if (Model.Count > 0)
+{
+    double total = 0;
+    int id = 1;
+
+    <table class="table">
+        <tr>
+            <th>STT</th>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th></th>
+        </tr>
+        @foreach (var cartItem in Model)
+        {
+            double price = cartItem.Product.Price - (cartItem.Product.Price * (cartItem.Product.Sales / 100));
+            var money = cartItem.Quantity * price;
+            total += money;
+            <tr>
+                <td>@(id++)</td>
+                <td>@cartItem.Product.Name</td>
+                <td>@price$</td>
+                <td><input asp-for="@cartItem.Quantity" id="@($"quantity-{cartItem.Product.Id}")" /></td>
+                <td>@money$</td>
+                <td>
+                    <a data-productid="@cartItem.Product.Id" class="btn btn-success updatecartItem"
+                    asp-route="updatecart" asp-route-productid="@cartItem.Product.Id" asp-route-quantity="@cartItem.Quantity">Cập nhật</a>
+                    <a asp-route="removecart" asp-route-productid="@cartItem.Product.Id" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+        <tr>
+            <td colspan="4" class="text-right">Tổng tiền</td>
+            <td>@total$</td>
+            <td></td>
+        </tr>
+    </table>
+
+    //AJAX Button
+    <a asp-route="checkout" asp-route-id="@UserManager.GetUserId(User)" asp-route-total="@total" class="btn btn-success">Thanh toán</a>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-info">Tiếp tục mua hàng</a>
+    @section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".updatecartItem").click(function (event) {
+                event.preventDefault();
+                var productid = $(this).attr("data-productid");
+                var quantity = $("#quantity-" + productid).val();
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.RouteUrl("updatecart")",
+                    data: {
+                        productid: productid,
+                        quantity: quantity
+                    },
+                    success: function (result) {
+                        window.location.href = "@Url.RouteUrl("cart")";
+                    }
+                });
+            });
+        });
+    </script>
+    }
+
+}
+else
+{
+    <p class="alert alert-danger">Giỏ hàng trống !</p>
+}

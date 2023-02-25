@@ -1,0 +1,109 @@
+﻿@*@model IEnumerable<ProjectOnlineStore.Data.Order>*@
+@model List<ProjectOnlineStore.Data.Order>
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">ĐƠN HÀNG</h2>
+
+@if (Model.Count > 0)
+{
+    <table class="table">
+        <tr>
+            <th>STT</th>
+            <th>Tên người mua</th>
+            <th>ID người mua</th>
+            <th>Tổng tiền</th>
+            <th></th>
+        </tr>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.UserName</td>
+                <td>@order.CreateAt.ToString()</td>
+                <td>@order.Total</td>
+                <td>
+                    <a class="btn btn-danger" @*asp-action="Check" asp-route-id="@order.Id"*@>Check</a> |
+                    <a class="btn btn-danger" asp-action="Details" asp-route-id="@order.Id">Details</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@order.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </table>
+    <a asp-controller="Home" asp-action="Index" class="btn btn-info">Trở về trang chủ</a>
+}
+else
+{
+    <p class="alert alert-danger">Không có hóa đơn nào !</p>
+}
+
+
+
+
+@*<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateAt)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Paid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PaymentDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Note)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Total)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateAt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Paid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Note)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Total)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                <a>Check</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>*@

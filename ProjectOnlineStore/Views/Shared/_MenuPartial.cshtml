@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProjectOnlineStore.Data
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@using Microsoft.AspNetCore.Http
+@using Newtonsoft.Json
+@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var session = HttpContextAccessor.HttpContext.Session;
+    string jsoncart = session.GetString(ProjectOnlineStore.Controllers.CartController.CARTKEY);
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    if (User.IsInRole("Adminitrators"))
+    {
+        <div class="account"><a id="manage" asp-controller="Admin" asp-action="Index" title="Manage"><span> </span>ADMIN</a></div>
+    }
+    else
+    {
+        <div class="account"><a id="manage" title=""><span> </span>@UserManager.GetUserName(User)</a></div>
+        @*<div class="account"><a id="manage" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><span> </span>@UserManager.GetUserName(User)</a></div>*@
+    }
+
+    <ul class="login">
+        <li><a id="logoutForm" asp-action="Logout" asp-controller="User" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })"><span> </span>THOÁT</a></li>
+    </ul>
+    @if (jsoncart != null)
+    {
+        var cart = JsonConvert.DeserializeObject<List<CartItem>>(jsoncart);
+        <div class="cart"><a asp-route="cart"><span> </span>GIỎ(@cart.Count)</a></div>
+    }
+    else
+    {
+        <div class="cart"><a asp-route="cart"><span> </span>GIỎ(0)</a></div>
+    }
+}
+else
+{
+    <div class="account"><a id="login" asp-action="Login" asp-controller="User"><span> </span>ĐĂNG NHẬP</a></div>
+    <ul class="login">
+        <li><a id="register" asp-action="Register" asp-controller="User"><span> </span>ĐĂNG KÝ</a></li>
+    </ul>
+    @if (jsoncart != null)
+    {
+        var cart = JsonConvert.DeserializeObject<List<CartItem>>(jsoncart);
+        <div class="cart"><a asp-route="cart"><span> </span>GIỎ(@cart.Count)</a></div>
+    }
+    else
+    {
+        <div class="cart"><a asp-route="cart"><span> </span>GIỎ(0)</a></div>
+    }
+}

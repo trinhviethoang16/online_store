@@ -1,0 +1,25 @@
+﻿@model List<ProjectOnlineStore.Data.Product>
+
+@{
+    Random random = new Random();
+    int index = random.Next(Model.Count);
+    for (int i = 0; i < Model.Count(); i++)
+    {
+        double price = Model[i].Price - (Model[i].Price * (Model[i].Sales / 100));
+        if (i == index)
+        {
+            <div class="products">
+                <h5 class="latest-product">GỢI Ý CHO BẠN</h5>
+            </div>
+            <br/><br/>
+            <div class=" chain-grid menu-chain">
+                <a href="/Product/Detail/@Model[i].Id"><img height="230" width="160" class="img-responsive chain" src="@Model[i].Image" alt=" " /></a>
+                <div class="grid-chain-bottom chain-watch">
+                    <span class="actual dolor-left-grid">$@price</span>
+                    <span class="reducedfrom">$@Model[i].Price</span>
+                    <h6><a href="/Product/Detail/@Model[i].Id">@Model[i].Name</a></h6>
+                </div>
+            </div>
+        }
+    }
+}

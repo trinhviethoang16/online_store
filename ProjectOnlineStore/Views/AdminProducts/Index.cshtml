@@ -1,0 +1,109 @@
+﻿@model IEnumerable<ProjectOnlineStore.Data.Product>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2 style="text-align:center">SẢN PHẨM</h2>
+
+<p>
+    <a class="btn btn-danger" asp-action="Create">Thêm sản phẩm mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            @*<th>
+            @Html.DisplayNameFor(model => model.VirtualPrice)
+            </th>*@
+            @*<th>
+            @Html.DisplayNameFor(model => model.Image)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Star)
+            </th>
+            @*<th>
+            @Html.DisplayNameFor(model => model.BestSellers)
+            </th>
+            <th>
+            @Html.DisplayNameFor(model => model.Sales)
+            </th>
+            <th>
+            @Html.DisplayNameFor(model => model.Homepage)
+            </th>
+            <th>
+            @Html.DisplayNameFor(model => model.Advertising)
+            </th>*@
+            <th>
+                @Html.DisplayNameFor(model => model.Remains)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Detail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                @*<td>
+            @Html.DisplayFor(modelItem => item.VirtualPrice)
+            </td>*@
+                @*<td>
+            @Html.DisplayFor(modelItem => item.Image)
+            </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Star)
+                </td>
+                @*<td>
+            @Html.DisplayFor(modelItem => item.BestSellers)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => item.Sales)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => item.Homepage)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => item.Advertising)
+            </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Remains)
+                </td>
+                <td>
+                    <a class="btn btn-danger" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a class="btn btn-danger" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,19 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@using ProjectOnlineStore.Data;
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+@{
+    Layout = "~/Views/Shared/_LayoutCart.cshtml";
+}
+
+<body style="text-align:center">
+    <br /><br /><br />
+    <h3>Quý khách @UserManager.GetUserName(User) đã mua hàng thành công !</h3>
+    <br />
+    <h3>Đơn hàng của bạn đã được lưu vào hệ thống.</h3>
+    <br />
+    <h3>Cảm ơn quý khách !</h3>
+    <br />
+    <a asp-controller="Home" asp-action="Index" class="btn btn-success">Tiếp tục mua sắm</a>
+</body>

@@ -1,0 +1,230 @@
+﻿@model List<ProjectOnlineStore.Data.Product>
+
+@for (int i = 0; i < Model.Count(); i++)
+{
+    double price = (@Model[i].Price - (@Model[i].Price * (@Model[i].Sales / 100)));
+    if (i % 3 == 2)
+    {
+        <div class="col-md-4 chain-grid grid-top-chain">
+            <a href="/Product/Detail/@Model[i].Id"><img height="230" width="160" class="img-responsive chain" src="@Model[i].Image" alt=" " /></a>
+            <span class="star"> </span>
+            <div class="grid-chain-bottom">
+                <h6><a href="/Product/Detail/@Model[i].Id">@Model[i].Name</a></h6>
+                <div class="star-price">
+                    <div class="dolor-grid">
+                        <span class="actual">$@price</span>
+                        <span class="reducedfrom">$@Model[i].Price</span>
+                        <span class="rating">
+                            @{
+                                for (int j = 0; j < @Model[i].Star; j++)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star1"> </label>
+                                }
+                                if (@Model[i].Star == 1)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Star == 2)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Star == 3)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Star == 4)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                            }
+                        </span>
+                    </div>
+                    <div id="cartForm_@Model[i].Id" style="display: none;">
+                        <input name="productId" value="@Model[i].Id" id="productId_@Model[i].Id" />
+                        <input name="quantity" value="1" id="quantity_@Model[i].Id" />
+                        <input name="price" value="@price" id="price_@Model[i].Id" />
+                    </div>
+                    <a class="now-get get-cart" asp-route="addcart" asp-route-productid="@Model[i].Id">THÊM VÀO GIỎ</a>
+                    @*<a href="#" onclick="onSubmit(@Model[i].Id)"><i class="now-get get-cart"></i>THÊM VÀO GIỎ</a>*@
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+        <br />
+    }
+    else
+    {
+        <div class="col-md-4 chain-grid">
+            <a href="/Product/Detail/@Model[i].Id"><img height="230" width="160" class="img-responsive chain" src="@Model[i].Image" alt=" " /></a>
+            <span class="star"> </span>
+            <div class="grid-chain-bottom">
+                <h6><a href="/Product/Detail/@Model[i].Id">@Model[i].Name</a></h6>
+                <div class="star-price">
+                    <div class="dolor-grid">
+                        <span class="actual">$@price</span>
+                        <span class="reducedfrom">$@Model[i].Price</span>
+                        <span class="rating">
+                            @{
+                                for (int j = 0; j < @Model[i].Star; j++)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star1"> </label>
+                                }
+                                if (@Model[i].Star == 1)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Star == 2)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Star == 3)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                                else if (@Model[i].Star == 4)
+                                {
+                                    <input type="radio" class="rating-input">
+                                    <label class="rating-star"> </label>
+                                }
+                            }
+                        </span>
+                    </div>
+                    <div id="cartForm_@Model[i].Id" style="display: none;">
+                        <input name="productId" value="@Model[i].Id" id="productId_@Model[i].Id" />
+                        <input name="quantity" value="1" id="quantity_@Model[i].Id" />
+                        <input name="price" value="@price" id="price_@Model[i].Id" />
+                    </div>
+                    <a class="ajax-add-to-cart now-get get-cart" asp-route="addcart" asp-route-productid="@Model[i].Id">THÊM VÀO GIỎ</a>
+                    @*<a href="#" onclick="onSubmit(@Model[i].Id)"><i class="now-get get-cart"></i>THÊM VÀO GIỎ</a>*@
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+
+@*<script type="text/javascript">
+    function onSubmit(id) {
+
+        var productId = $("#productId_" + id).val();
+        var price = $("#price_" + id).val();
+        var quantity = $("#quantity_" + id).val();
+        var data = {
+            'productId': productId,
+            'price': price,
+            'quantity': quantity
+        }
+
+        var isIncrease = false;
+
+        $.ajax({
+            type: 'GET',
+            url: '/cart/check-item/' + id,
+            contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+            success: function (res) {
+                console.log(res);
+                if (res == true) {
+                    isIncrease = true;
+
+                } else {
+                    isIncrease = false;
+                }
+
+            },
+            error: function (error) {
+                console.log('Failed ');
+            }
+        })
+
+        $.ajax({
+            type: 'POST',
+            url: '/cart/add-to-cart',
+            contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
+            data: data,
+            success: function (result) {
+                var newCartNum = parseInt($("#cartNum").text()) + 1;
+                if (isIncrease) {
+                    $("#cartNum").text(newCartNum);
+                }
+            },
+            error: function (error) {
+                console.log('Failed ');
+                console.log(error.status);
+                if (error.status == 401) {
+                    window.location.href = "/dang-nhap";
+                }
+            }
+        })
+
+    }
+
+</script>*@
+
+@*@section Scripts{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".ajax-add-to-cart").click(function () {
+                $.ajax({
+                    url: "/Cart/AddToCart",
+                    data: {
+                        id: $(this).data("id"),
+                    },
+                    success: function (data) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Thêm giỏ hàng thành công',
+                            showConfirmButton: false,
+                            timer: 2500
+                        });
+                    },
+                    error: function () {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Thêm giỏ hàng thất bại',
+                            text: 'Vui lòng thử lại',
+                            showConfirmButton: false,
+                            timer: 2500
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+}*@

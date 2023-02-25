@@ -1,0 +1,95 @@
+﻿@model ProjectOnlineStore.Data.Product
+
+@{
+    Layout = "_Layout";
+    double price = Model.Price - (Model.Price * (Model.Sales / 100));
+}
+
+<div class=" single_top">
+    <div class="single_grid">
+        <div class="grid images_3_of_2">
+            <ul id="etalage">
+                <li>
+                    <a href="#">
+                        <img class="etalage_thumb_image" src="@Model.Image" class="img-responsive" />
+                        <img class="etalage_source_image" src="@Model.Image" class="img-responsive" title="" />
+                    </a>
+                </li>
+                <li>
+                    <img class="etalage_thumb_image" src="@Model.Image" class="img-responsive" />
+                    <img class="etalage_source_image" src="@Model.Image" class="img-responsive" title="" />
+                </li>
+                <li>
+                    <img class="etalage_thumb_image" src="@Model.Image" class="img-responsive" />
+                    <img class="etalage_source_image" src="@Model.Image" class="img-responsive" />
+                </li>
+                <li>
+                    <img class="etalage_thumb_image" src="@Model.Image" class="img-responsive" />
+                    <img class="etalage_source_image" src="@Model.Image" class="img-responsive" />
+                </li>
+            </ul>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="desc1 span_3_of_2">
+
+            <h4>@Model.Name</h4>
+            <div class="cart-b">
+                <div class="left-n">$@price</div>
+                <a class="now-get get-cart-in" asp-route="addcart" asp-route-productid="@Model.Id">THÊM VÀO GIỎ</a>
+                <div class="clearfix"></div>
+            </div>
+            <h6>Số lượng còn @Model.Remains sản phẩm</h6>
+            <p>@Model.Detail</p>
+            <div class="share">
+                <h5>Chia sẻ sản phẩm :</h5>
+                <ul class="share_nav">
+                    <li><a href="https://www.facebook.com/"><img src="~/assets/images/facebook.png" title="facebook"></a></li>
+                    <li><a href="https://www.twitter.com/"><img src="~/assets/images/twitter.png" title="Twiiter"></a></li>
+                    <li><a href="https://www.rss.com/"><img src="~/assets/images/rss.png" title="Rss"></a></li>
+                    <li><a href="https://www.google.com/"><img src="~/assets/images/gpluse.png" title="Google+"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <ul id="flexiselDemo1">
+        <li><img src="~/assets/images/pi.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
+        <li><img src="~/assets/images/pi1.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
+        <li><img src="~/assets/images/pi2.jpg" /><div class="grid-flex"><a href="#">Zumba</a><p>Rs 850</p></div></li>
+        <li><img src="~/assets/images/pi3.jpg" /><div class="grid-flex"><a href="#">Bloch</a><p>Rs 850</p></div></li>
+        <li><img src="~/assets/images/pi4.jpg" /><div class="grid-flex"><a href="#">Capzio</a><p>Rs 850</p></div></li>
+    </ul>
+    @section Scripts{
+    <script type="text/javascript">
+        $(window).load(function () {
+            $("#flexiselDemo1").flexisel({
+                visibleItems: 5,
+                animationSpeed: 1000,
+                autoPlay: true,
+                autoPlaySpeed: 3000,
+                pauseOnHover: true,
+                enableResponsiveBreakpoints: true,
+                responsiveBreakpoints: {
+                    portrait: {
+                        changePoint: 480,
+                        visibleItems: 1
+                    },
+                    landscape: {
+                        changePoint: 640,
+                        visibleItems: 2
+                    },
+                    tablet: {
+                        changePoint: 768,
+                        visibleItems: 3
+                    }
+                }
+            });
+        });
+    </script>
+    }
+    <script type="text/javascript" src="~/assets/js/jquery.flexisel.js"></script>
+    <div class="toogle">
+        <h3 class="m_3">Thông tin chi tiết sản phẩm</h3>
+        <p class="m_text">@Model.Description</p>
+    </div>
+</div>

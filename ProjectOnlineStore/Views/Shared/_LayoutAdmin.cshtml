@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Administrator</title>
+    <link href="~/assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!--theme-style-->
+    <link href="~/assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!--//fonts-->
+    <script src="~/assets/js/jquery.min.js"></script>
+    <!--script-->
+</head>
+<body>
+    <div class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="top-header-left">
+                    <ul class="support">
+                        <li><a asp-controller="Admin" asp-action="Index"><label> </label></a></li>
+                        <li><a asp-controller="Admin" asp-action="Index">Admin<span class="live"> support</span></a></li>
+                    </ul>
+                    <ul class="support">
+                        <li class="van"><a asp-controller="Home" asp-action="Index"><label> </label></a></li>
+                        <li><a asp-controller="Home" asp-action="Index">Quay về  <span class="live">trang chủ</span></a></li>
+                    </ul>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-header">
+        <div class="container">
+            <div class="header-bottom-middle">
+                <div class="account"><a asp-controller="AdminOrders" asp-action="Index"><span> </span>Quản lý đơn hàng</a></div>
+                <div class="cart"><a asp-controller="AdminProducts" asp-action="Index"><span> </span>Quản lý sản phẩm</a></div>
+                <div class="cart"><a asp-controller="AdminCategories" asp-action="Index"><span> </span>Quản lý danh mục</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+        @RenderBody()
+
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

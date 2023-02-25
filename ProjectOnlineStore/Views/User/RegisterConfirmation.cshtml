@@ -1,0 +1,21 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<div class="account_grid">
+    <div class=" login-right">
+        <h3>VUI LÒNG XÁC THỰC GMAIL</h3>
+        @{
+            if (@ViewBag.DisplayConfirmAccountLink)
+            {
+                    <a id="confirm-link" href="@ViewBag.EmailConfirmationUrl">Click here to confirm your account</a>
+            }
+            else
+            {
+                <p>
+                    Please check your email to confirm your account.
+                </p>
+            }
+        }
+    </div>
+</div>

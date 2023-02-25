@@ -1,0 +1,31 @@
+﻿@model List<ProjectOnlineStore.Data.Product>
+
+<!--Homepage Product-->
+<div class="shoes-grid">
+    <a href="#">
+        <div class="wrap-in">
+            <div class="wmuSlider example1 slide-grid">
+                @Html.Partial("../Product/HomepageProduct", Model)
+    </a>
+    <ul class="wmuSliderPagination">
+        <li><a href="#" class="">0</a></li>
+        <li><a href="#" class="">1</a></li>
+        <li><a href="#" class="">2</a></li>
+    </ul>
+    <script src="~/assets/js/jquery.wmuSlider.js"></script>
+    <script>
+        $('.example1').wmuSlider();
+    </script>
+</div>
+              </div>
+                   </a>
+
+<!--All product-->
+<div class="products">
+    <h5 class="latest-product">TẤT CẢ SẢN PHẨM</h5>
+</div>
+<div class="product-left">
+    @Html.Partial("../Product/Products", Model)
+</div>
+<div class="clearfix"> </div>
+                  </div>

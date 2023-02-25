@@ -1,0 +1,44 @@
+﻿@model List<ProjectOnlineStore.Data.Product>
+
+<!--Homepage Product-->
+<div class="shoes-grid">
+    <a href="#">
+        <div class="wrap-in">
+            <div class="wmuSlider example1 slide-grid">
+                @Html.Partial("../Product/HomepageProduct", Model)
+    </a>
+    <ul class="wmuSliderPagination">
+        <li><a href="#" class="">0</a></li>
+        <li><a href="#" class="">1</a></li>
+        <li><a href="#" class="">2</a></li>
+    </ul>
+    <script src="~/assets/js/jquery.wmuSlider.js"></script>
+    <script>
+        $('.example1').wmuSlider();
+    </script>
+</div>
+              </div>
+                   </a>
+
+<!--Advertising product-->
+<div class="shoes-grid-left">
+    @Html.Partial("../Product/AdvertisingProduct", Model)
+</div>
+<!--Sales product-->
+<div class="products">
+    <h5 class="latest-product">SẢN PHẨM KHUYẾN MÃI</h5>
+    <a class="view-all" asp-controller="Product" asp-action="AllProduct">XEM TẤT CẢ<span> </span></a>
+</div>
+<div class="product-left">
+    @Html.Partial("../Product/Products", Model.OrderByDescending(x => x.Sales).Take(9).ToList())
+</div>
+<!--Best sellers product-->
+<div class="products">
+    <h5 class="latest-product">SẢN PHẨM BÁN CHẠY</h5>
+    <a class="view-all" asp-controller="Product" asp-action="AllProduct">XEM TẤT CẢ<span> </span></a>
+</div>
+<div class="product-left">
+    @Html.Partial("../Product/Products", Model.OrderByDescending(x => x.Star).Take(9).ToList())
+</div>
+<div class="clearfix"> </div>
+                  </div>   
